@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta name="description" content="デザインエンジニアのための勉強サイト" />
+  <title>デザインエンジニアのための勉強サイト</title>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="img/favicon.png">
+  <script type="text/javascript">
+    setTimeout(function () {
+      document.getElementsByTagName("html")[0].classList.add("loading-delay");
+    }, 100);
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header fade-in-bottom">
+      <h1 class="logo">
+        <span class="logo-name">デザインエンジニアのための勉強サイト</span>
+        <span class="logo-title">FullStack</span>
+        <span class="logo-text">習得しておきたい技術・知識をまとめてみました</span>
+      </h1>
+    </header>
+
+    <nav class="gnav">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">About</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#engineer-section">Engineer</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#designer-section">Designer</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#tools-section">Tools</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+    <section id="about-section">
+      <div class="section-heading">
+        <h2>About
+          <span class="sub-text">このサイトについて</span>
+        </h2>
+      </div>
+      <div class="desc-text"></div>
+      <p class="desc-text">このサイトは、「プログラミング、もっといろいろやってみたいけど、何を触ったらいいかわからない！」<br>
+        「デザインしてみたいけど、なにをしていいかわからない！」といった人のための初級～中級レベルのスキルセットまとめサイトです。<br>
+        公式HP、公式ドキュメント、チュートリアルなどに飛べるようリンクを貼っていますので、ぜひ興味のあるものから触って手を動かしてみてください！</p>
+    </section>
+    
+    <section id="engineer-section">
+      <div class="section-heading">
+        <h2>Engineer
+          <span class="sub-text">エンジニア関連</span>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/vue.png" alt="vuejsアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://jp.vuejs.org/" target="_blank">Web/<span class="card-weight">Vue.js</span></a></h3>
+                  <p class="card-text"><a href="https://jp.vuejs.org/" target="_blank">https://jp.vuejs.org/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://v3.ja.vuejs.org/guide/introduction.html" target="_blank"><img src="img/heart.png" alt="アイコン"></a></li>
+                    <li><a href="https://v3.ja.vuejs.org/guide/introduction.html" target="_blank"><p>document</p></a></li>
+                    <li><a href="https://blog.sin-tanaka.com/posts/vuejs-tutorial-with-cli1/" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://blog.sin-tanaka.com/posts/vuejs-tutorial-with-cli1/" target="_blank"><p>tutorial</p></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/nuxt.png" alt="nuxtjsアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://ja.nuxtjs.org/" target="_blank">Web/<span class="card-weight">NuxtJS</span></a></h3>
+                  <p class="card-text"><a href="https://ja.nuxtjs.org/" target="_blank">https://ja.nuxtjs.org/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://ja.nuxtjs.org/docs/2.x/get-started/installation" target="_blank"><img src="img/heart.png" alt="アイコン"></a></li>
+                    <li><a href="https://ja.nuxtjs.org/docs/2.x/get-started/installation" target="_blank"><p>document</p></a></li>
+                    <li><a href="https://note.com/mitsuru_waichan/n/n710dcfa5cf60" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://note.com/mitsuru_waichan/n/n710dcfa5cf60" target="_blank"><p>tutorial</p></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/react.png" alt="reactjsアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://ja.reactjs.org/" target="_blank">Web/<span class="card-weight">reactjs</span></a></h3>
+                  <p class="card-text"><a href="https://ja.reactjs.org/" target="_blank">https://ja.reactjs.org/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://ja.reactjs.org/docs/getting-started.html" target="_blank"><img src="img/heart.png" alt="アイコン"></a></li>
+                    <li><a href="https://ja.reactjs.org/docs/getting-started.html" target="_blank"><p>document</p></a></li>
+                    <li><a href="https://ja.reactjs.org/tutorial/tutorial.html" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://ja.reactjs.org/tutorial/tutorial.html" target="_blank"><p>tutorial</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/nextjs.jpg" alt="nextjsアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://nextjs.org/" target="_blank">Web/<span class="card-weight">Nextjs</span></a></h3>
+                  <p class="card-text"><a href="https://nextjs.org/" target="_blank">https://nextjs.org/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://nextjs.org/docs/getting-started"  target="_blank"><img src="img/heart.png" alt="アイコン"></a></li>
+                    <li><a href="https://nextjs.org/docs/getting-started"  target="_blank"><p>document</p></a></li>
+                    <li><a href="https://nextjs.org/learn/basics/create-nextjs-app"  target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://nextjs.org/learn/basics/create-nextjs-app"  target="_blank"><p>tutorial</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/gatsby.png" alt="gatsbyアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://www.gatsbyjs.com/" target="_blank">Web/<span class="card-weight">Gatsbyjs</span></a></h3>
+                  <p class="card-text"><a href="https://www.gatsbyjs.com/" target="_blank">https://www.gatsbyjs.com/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://qiita.com/umamichi/items/9bd08a21fddc71588efc" target="_blank"><img src="img/hatena.png" alt="アイコン"></a></li>
+                    <li><a href="https://qiita.com/umamichi/items/9bd08a21fddc71588efc" target="_blank"><p>help</p></a></li>
+                    <li><a href="https://reffect.co.jp/react/gatsby-basic-tutorial-for-beginners" target="_blank"><img src="img/heart.png" alt="アイコン"></a></li>
+                    <li><a href="https://reffect.co.jp/react/gatsby-basic-tutorial-for-beginners" target="_blank"><p>document</p></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/flutter-logo-400x400.png" alt="flutterアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://flutter.dev/" target="_blank">App/<span class="card-weight">Flutter</span></a></h3>
+                  <p class="card-text"><a href="https://flutter.dev/" target="_blank">https://flutter.dev/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://flutter.dev/docs" target="_blank"><img src="img/heart.png" alt="アイコン"></a></li>
+                    <li><a href="https://flutter.dev/docs" target="_blank"><p>document</p></a></li>
+                    <li><a href="https://flutter.ctrnost.com/tutorial/" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://flutter.ctrnost.com/tutorial/" target="_blank"><p>tutorial</p></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="designer-section">
+      <div class="section-heading">
+        <h2>Designer
+          <span class="sub-text">デザイン関連</span>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/figma.jpg" alt="figmaアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://www.figma.com/" target="_blank">UI/<span class="card-weight">Figma</span></a></h3>
+                  <p class="card-text"><a href="https://www.figma.com/" target="_blank">https://www.figma.com/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://www.figma.com/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://www.figma.com/" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://note.com/fjkn/m/m9829c621e025" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://note.com/fjkn/m/m9829c621e025" target="_blank"><p>tutorial</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/xd.png" alt="AdobeXdアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://www.adobe.com/jp/products/xd.html" target="_blank">UI/<span class="card-weight">Adobe XD</span></a></h3>
+                  <p class="card-text"><a href="https://www.adobe.com/jp/products/xd.html" target="_blank">https://www.adobe.com/xd</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://www.adobe.com/jp/products/xd.html" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://www.adobe.com/jp/products/xd.html" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://note.com/fjkn/m/m9829c621e025" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://note.com/fjkn/m/m9829c621e025" target="_blank"><p>tutorial</p></a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/Ai.jpg" alt="AdobeIllustratorアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://www.adobe.com/jp/products/illustrator.html" target="_blank">UI/<span class="card-weight">Illustrator</span></a></h3>
+                  <p class="card-text"><a href="https://www.adobe.com/jp/products/illustrator.html" target="_blank">https://www.adobe.com/illustrator</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://www.adobe.com/jp/products/illustrator.html" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://www.adobe.com/jp/products/illustrator.html" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://helpx.adobe.com/jp/illustrator/tutorials.html" target="_blank"><img src="img/folder.png" alt="アイコン"></a></li>
+                    <li><a href="https://helpx.adobe.com/jp/illustrator/tutorials.html" target="_blank"><p>tutorial</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/pinterest.png" alt="ピンタレストアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title">Idea/<span class="card-weight">Pinterest</span></h3>
+                  <p class="card-text"><a href="https://www.pinterest.jp/" target="_blank">https://www.pinterest.jp/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://www.pinterest.jp/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://www.pinterest.jp/" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://pinterestjapanblog.com/pinterest-beginners-guide-2020/" target="_blank"><img src="img/hatena.png" alt="アイコン"></a></li>
+                    <li><a href="https://pinterestjapanblog.com/pinterest-beginners-guide-2020/" target="_blank"><p>help</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/gf.png" alt="グーグルフォントアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title">Font/<span class="card-weight">Google Font</span></h3>
+                  <p class="card-text"><a href="https://fonts.google.com/" target="_blank">https://fonts.google.com/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://fonts.google.com/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://fonts.google.com/" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://digitalidentity.co.jp/blog/creative/google-fonts.html" target="_blank"><img src="img/hatena.png" alt="アイコン"></a></li>
+                    <li><a href="https://digitalidentity.co.jp/blog/creative/google-fonts.html" target="_blank"><p>help</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/ch.png" alt="カラーハントアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title">Color/<span class="card-weight">Color Hunt</span></h3>
+                  <p class="card-text"><a href="https://colorhunt.co/" target="_blank">https://colorhunt.co/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://colorhunt.co/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://colorhunt.co/" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://ring-of-life.com/how-to-use-color-hunt" target="_blank"><img src="img/hatena.png" alt="アイコン"></a></li>
+                    <li><a href="https://ring-of-life.com/how-to-use-color-hunt" target="_blank"><p>help</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tools-section">
+      <div class="section-heading">
+        <h2>Tools</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/notion.jpg" alt="Notionアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title"><a href="https://www.notion.so/" target="_blank">memo/<span class="card-weight">Notion</span></a></h3>
+                  <p class="card-text"><a href="https://www.notion.so/" target="_blank">https://www.notion.so/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://www.notion.so/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://www.notion.so/" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://seleck.cc/1455" target="_blank"><img src="img/hatena.png" alt="アイコン"></a></li>
+                    <li><a href="https://seleck.cc/1455" target="_blank"><p>help</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/sb.jpg" alt="Scrapboxアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title">memo/<span class="card-weight">Scrapbox</span></h3>
+                  <p class="card-text"><a href="https://scrapbox.io/" target="_blank">https://scrapbox.io/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://scrapbox.io/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://scrapbox.io/" target="_blank"><p>use</p></a></li>
+                    <li><a href="https://scrapbox.io/help-jp/Scrapbox%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9" target="_blank"><img src="img/hatena.png" alt="アイコン"></a></li>
+                    <li><a href="https://scrapbox.io/help-jp/Scrapbox%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9" target="_blank"><p>help</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex">
+              <img class="card-img" src="img/note.jpg" alt="noteアイコン">
+              <div>
+                <div class="card-content">
+                  <h3 class="card-title">read/<span class="card-weight">note</span></h3>
+                  <p class="card-text"><a href="https://note.com/" target="_blank">https://note.com/</a></p>
+                </div>
+                <div class="card-link">
+                  <ul class="flex-card-link">
+                    <li><a href="https://note.com/" target="_blank"><img src="img/use.png" alt="アイコン"></a></li>
+                    <li><a href="https://note.com/" target="_blank"><p>use</p></a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <button id="page-top" class="page-top" onclick="ptop()" tabindex="1" accesskey="U"></button>
+    <footer class="footer">
+      <div class="inner">
+        <p class="copyright">Copyright&copy;miyuu sakane. All Rights Reserved.</p>
+      </div>
+    </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
